@@ -7,6 +7,10 @@ const Inicio = () => {
     <>
       <div className="container">
         <img src={mainBanner} alt="Banner" id="mainBanner" />
+        <div className="mainContent">
+          <div className="text">Excelência</div>
+          <div className="videos"></div>
+        </div>
       </div>
     </>
   );
