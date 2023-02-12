@@ -1,5 +1,15 @@
+import "./styles.css";
+
+import mainBanner from "../../assets/mainBanner.jpg";
+
 const Inicio = () => {
-  return <h1>INICIO</h1>;
+  return (
+    <>
+      <div className="container">
+        <img src={mainBanner} alt="Banner" id="mainBanner" />
+      </div>
+    </>
+  );
 };
 
 export default Inicio;
