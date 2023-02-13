@@ -7,7 +7,7 @@ import Contato from "./pages/Contato";
 const router = createBrowserRouter([
   { path: "/", element: <Inicio /> },
   { path: "/empresa", element: <Empresa /> },
-  { path: "/empresa", element: <Contato /> },
+  { path: "/contato", element: <Contato /> },
 ]);
 
 function App() {
