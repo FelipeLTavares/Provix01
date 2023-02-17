@@ -3,6 +3,9 @@ import "./styles.css";
 import mainBanner from "../../assets/mainBanner.jpg";
 import img1 from "../../assets/mainContentImg1.png";
 import excelenciaimg from "../../assets/SVG/Ativo 33.svg";
+import MapaCeara from "../../assets/SVG/Ativo 4.svg";
+import Menino from "../../assets/SVG/Ativo 3.svg";
+
 import Header from "../../shared/Header";
 import Footer from "../../shared/Footer";
 
@@ -47,6 +50,36 @@ const Inicio = () => {
             </div>
           </div>
         </div>
+
+        <div id="secondaryContent">
+          <div id="SCTitle">
+            <div id="SCmunicipios">MUNICÍPIOS</div>
+            <div id="SCDouble">
+              <div className="SCDouble">ESCOLAS</div>
+              <div className="SCDouble">ALUNOS</div>
+            </div>
+            <div id="SCImpactados">Impactados</div>
+          </div>
+
+          <div id="SCImgs">
+            <div id="SCMapaCearaBox">
+              <img src={MapaCeara} alt="asdasd" id="SCMapaCeara" />
+            </div>
+            <div id="SCMeninoBox">
+              <img src={Menino} alt="asdasd" id="SCMenino" />
+            </div>
+          </div>
+
+          <div id="SCDados">
+            <div>26</div>
+            <div>MUNICÍPIOS</div>
+            <div>1203</div>
+            <div>ESCOLAS</div>
+            <div>354.854</div>
+            <div>ALUNOS</div>
+          </div>
+        </div>
+
         <Footer></Footer>
       </div>
     </>
