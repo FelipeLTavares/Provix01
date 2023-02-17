@@ -1,5 +1,19 @@
+import "./styles.css";
+
+import Header2 from "../../shared/Header2";
+import Footer from "../../shared/Footer";
+import fundoAzul from "../../assets/SVG/Ativo 14.svg";
+import NossosParceiros from "../../assets/SVG/Ativo 35.svg";
+
 const Empresa = () => {
-  return <h1>Empresa</h1>;
-};
+  return (
+  <div>
+    <Header2></Header2>
+    <img src={NossosParceiros} alt="" id="NossosParceiros" /> 
+    <img src={fundoAzul} alt="" id="fundoAzul" /> 
+    <h1>Empresa</h1>;
+    <Footer></Footer>
+  </div>
+)};
 
 export default Empresa;
