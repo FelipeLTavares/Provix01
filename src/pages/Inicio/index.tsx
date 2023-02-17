@@ -1,6 +1,6 @@
 import "./styles.css";
 
-import mainBanner from "../../assets/mainBanner.jpg";
+import mainBanner from "../../assets/mainBanner.png";
 import img1 from "../../assets/mainContentImg1.png";
 import excelenciaimg from "../../assets/SVG/Ativo 33.svg";
 import MapaCeara from "../../assets/SVG/Ativo 4.svg";
@@ -71,12 +71,12 @@ const Inicio = () => {
           </div>
 
           <div id="SCDados">
-            <div>26</div>
-            <div>MUNICÍPIOS</div>
-            <div>1203</div>
-            <div>ESCOLAS</div>
-            <div>354.854</div>
-            <div>ALUNOS</div>
+            <div id="SCNumeros">26</div>
+            <div id="SCDescNumeros">MUNICÍPIOS</div>
+            <div id="SCNumeros">1203</div>
+            <div id="SCDescNumeros">ESCOLAS</div>
+            <div id="SCNumeros">354.854</div>
+            <div id="SCDescNumeros">ALUNOS</div>
           </div>
         </div>
 
