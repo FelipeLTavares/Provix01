@@ -30,7 +30,7 @@
 }
 
 #textSubtitle {
-  background-color: rgb(63, 166, 90);
+  background-color: #04942c;
   color: white;
   padding: 3px 10px;
   letter-spacing: 5px;
@@ -101,7 +101,7 @@
 }
 
 .SCDouble {
-  background: rgb(91, 151, 1);
+  background: #04942c;
   padding: 0.1rem 0.5rem;
   border-radius: 1rem;
   z-index: 5;
@@ -156,7 +156,7 @@
 #SCNumeros {
   font-size: 10vh;
   font-weight: bolder;
-  color: rgb(91, 151, 1);
+  color: #04942c;
 }
 
 #SCDescNumeros {

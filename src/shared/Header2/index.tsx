@@ -7,16 +7,16 @@ const Header = () => {
   return (
     <nav className="header">
       <img src={logo} alt="LOGO" id="logo" />
-      <Link to="/" className="navLink">
+      <Link to="/" className="navLink2">
         INÍCIO
       </Link>
-      <Link to="/empresa" className="navLink">
+      <Link to="/empresa" className="navLink2">
         EMPRESA
       </Link>
-      <Link to="/empresa" className="navLink">
+      <Link to="/empresa" className="navLink2">
         EQUIPE
       </Link>
-      <Link to="/contato" className="navLink">
+      <Link to="/contato" className="navLink2">
         CONTATO
       </Link>
     </nav>

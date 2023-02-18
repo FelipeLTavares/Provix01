@@ -1,0 +1,45 @@
+.Geral{
+    width:100%;
+    max-width: 150%;
+    margin: 0 auto;
+    min-height: 50vh;
+    display:flex;
+    algin-items:center;
+    justify-content:center;
+    height: 20vh;
+    position: absolute;
+    top:55%;
+}
+
+img {
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+  }
+  
+.inner{
+    display:flex;
+}
+
+.item{
+    min-width:40vh;
+    padding: 1.7rem;
+}
+
+.item img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5rem;
+    pointer-eventes: none;
+    
+    background-color: #fff;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.carousel{
+    cursor:grab;
+    overflow: hidden;
+    height: 50vh;
+}
