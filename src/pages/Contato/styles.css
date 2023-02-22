@@ -1,0 +1,22 @@
+#ImgDeposito{
+    width: 85%;
+    border-radius: 4rem 0rem 4rem 0rem;
+}
+
+.containerFotoDeposito{
+    width:75%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.conteudoContato{
+    display:flex;
+    justify-content: center;
+}
+
+.formaVerde{
+    background-color:#06942d;
+    height:60%;
+    width:12%;
+    border-radius: 0rem 2rem 0rem 0rem;
+}

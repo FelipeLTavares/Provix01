@@ -18,7 +18,6 @@ const Inicio = () => {
         <Header></Header>
         <img src={mainBanner} alt="Banner" id="mainBanner" />
 
-        <Form />
 
         <Footer></Footer>
       </div>

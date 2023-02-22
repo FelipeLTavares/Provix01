@@ -26,6 +26,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  padding-top: 1rem;
 }
 
 #formHeaderTitleBox {
@@ -64,7 +65,7 @@
   height: 10vh;
   border-radius: 10vh;
   border: 2px solid green;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   padding-left: 2rem;
   z-index: 6;
 }
@@ -87,12 +88,16 @@
 
 @media only screen and (max-width: 1600px) {
   #formContainer {
+    width: 100%;
     height: 75vh;
+    display: flex;
+    justify-content: center;
+    gap:6.5rem;
   }
 
   #formImg {
-    width: 100rem;
-    margin-left: -35rem;
+    width: 80rem;
+    margin-left: -19.5rem;
   }
 
   #mainForm {
@@ -100,17 +105,17 @@
   }
 
   #formHeader {
-    height: 24vh;
-    width: 30rem;
-    border-radius: 2.5rem;
+    height: 23vh;
+    width: 25rem;
+    border-radius: 2.1rem;
   }
 
   #formTrabalhe {
-    font-size: 3vh;
+    font-size: 3.8vh;
   }
 
   #formConosco {
-    font-size: 6vh;
+    font-size: 9vh;
   }
 
   #formInputsBox {
@@ -118,12 +123,12 @@
   }
 
   .formInput {
-    width: 28rem;
-    height: 8vh;
+    width: 22.7rem;
+    height: 10.8vh;
   }
 
   #formButton {
-    width: 30rem;
+    width: 24.7rem;
     font-size: 2.5vh;
   }
 }
@@ -134,8 +139,8 @@
   }
 
   #formImg {
-    width: 80rem;
-    margin-left: -30rem;
+    width: 70rem;
+    margin-left: -17rem;
   }
 
   #mainForm {
@@ -144,18 +149,19 @@
   }
 
   #formHeader {
-    height: 22vh;
-    width: 27rem;
+    height: 24vh;
+    width: 22.5rem;
+    border-radius: 1.5rem;
   }
 
   .formInput {
-    width: 25rem;
-    height: 8vh;
-    font-size: 1.4rem;
+    width: 20.2rem;
+    height: 11vh;
+    font-size: 1.2rem;
   }
 
   #formButton {
-    width: 27rem;
+    width: 22.5rem;
   }
 }
 

@@ -21,32 +21,32 @@ const Form = () => {
           <input
             className="formInput"
             id="nome"
-            placeholder="AQUI"
+            placeholder="Nome"
             type="text"
           />
 
           <input
             className="formInput"
             id="email"
-            placeholder="Nome"
+            placeholder="Email"
             type="text"
           />
           <input
             className="formInput"
             id="sobrenome"
-            placeholder="Nome"
+            placeholder="Sobrenome"
             type="text"
           />
           <input
             className="formInput"
             id="telefone"
-            placeholder="Nome"
+            placeholder="Telefone"
             type="text"
           />
           <input
             className="formInput"
             id="formButton"
-            placeholder="Nome"
+            placeholder="Enviar"
             type="submit"
             value="Enviar"
           />
