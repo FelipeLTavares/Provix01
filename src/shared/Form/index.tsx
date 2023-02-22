@@ -5,7 +5,9 @@ import FormImg from "../../assets/SVG/Ativo 13.svg";
 const Form = () => {
   return (
     <div id="formContainer">
-      <img src={FormImg} alt="ImgFormulario" id="formImg" />
+      <div id="formImgBox">
+        <img src={FormImg} alt="ImgFormulario" id="formImg" />
+      </div>
 
       <form id="mainForm">
         <div id="formHeader">
@@ -19,7 +21,7 @@ const Form = () => {
           <input
             className="formInput"
             id="nome"
-            placeholder="Nome"
+            placeholder="AQUI"
             type="text"
           />
 
