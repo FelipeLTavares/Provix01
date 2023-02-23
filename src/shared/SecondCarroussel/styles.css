@@ -1,0 +1,66 @@
+#SCarContainer {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#SCarTitle {
+  width: 28rem;
+  height: 5rem;
+  background-color: green;
+  color: white;
+
+  font-size: 3.5rem;
+  font-weight: 600;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+
+  border-radius: 2rem 2rem 0rem 0rem;
+}
+
+#SCarGalery {
+  display: flex;
+  align-items: center;
+}
+
+#SCarImg {
+  width: 56rem;
+  height: 38rem;
+  border-radius: 2rem;
+  object-fit: cover;
+}
+
+.SCarBtn {
+  width: 4rem;
+  height: 4rem;
+  background-color: blue;
+  border-radius: 50%;
+  z-index: 7;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.SCarBtn:hover {
+  cursor: pointer;
+}
+
+#trianguloParaEsquerda {
+  width: 0;
+  height: 0;
+  border-top: 1rem solid transparent;
+  border-bottom: 1rem solid transparent;
+  border-right: 1rem solid white;
+}
+
+#trianguloParaDireita {
+  width: 0;
+  height: 0;
+  border-top: 1rem solid transparent;
+  border-bottom: 1rem solid transparent;
+  border-left: 1rem solid white;
+}
