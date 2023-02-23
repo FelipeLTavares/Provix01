@@ -1,26 +1,3 @@
-#SCarContainer {
-  width: 100%;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#SCarTitle {
-  width: 28rem;
-  height: 5rem;
-  background-color: green;
-  color: white;
-
-  font-size: 3.5rem;
-  font-weight: 600;
-  display: flex;
-  align-items: end;
-  justify-content: center;
-
-  border-radius: 2rem 2rem 0rem 0rem;
-}
-
 #SCarGalery {
   display: flex;
   align-items: center;
@@ -36,7 +13,7 @@
 .SCarBtn {
   width: 4rem;
   height: 4rem;
-  background-color: blue;
+  background-color: #111182;
   border-radius: 50%;
   z-index: 7;
 

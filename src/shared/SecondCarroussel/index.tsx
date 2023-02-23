@@ -1,4 +1,7 @@
 import "./styles.css";
+import fotoAcao1 from "../../assets/FotosAcoes/foto1.jpg";
+import fotoAcao2 from "../../assets/FotosAcoes/foto2.jpg";
+import fotoAcao3 from "../../assets/FotosAcoes/foto3.jpg";
 
 import { useState } from "react";
 
@@ -6,10 +9,9 @@ const NewCarousel = () => {
   const [testee, setTestee] = useState(0);
 
   const lista2 = [
-    "https://picsum.photos/id/1/1000/1500",
-    "https://picsum.photos/id/12/1000/1500",
-    "https://picsum.photos/id/123/1000/1500",
-    "https://picsum.photos/id/143/1000/1500",
+    fotoAcao1,
+    fotoAcao2,
+    fotoAcao3,
   ];
 
   const avancar = () => {
@@ -31,8 +33,6 @@ const NewCarousel = () => {
   };
 
   return (
-    <div id="SCarContainer">
-      <div id="SCarTitle">Nossas Ações</div>
       <div id="SCarGalery">
         <div
           id="SCarBtnLeft"
@@ -52,7 +52,6 @@ const NewCarousel = () => {
           <div id="trianguloParaDireita"></div>
         </div>
       </div>
-    </div>
   );
 };
 

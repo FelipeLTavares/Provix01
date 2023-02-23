@@ -1,10 +1,39 @@
-
-
 #fundoAzul{
     width:100%;
 }
 
-#NossosParceiros{
+.AreasDeAtuacao{
+    margin-top: 11%;
+    margin-bottom: -18%;
+}
+
+#Xbranco{
+    width: 70%;
+    position:relative;
+}
+
+#nossasAreas{
+    width:17%;
+    position:absolute;
+    margin-top: -46.5%;
+    margin-left: 20%;
+}
+
+#caminhao{
+    width:47%;
+    position:absolute;
+    margin-top: -33%;
+    margin-left:  10%;
+}
+
+.divDoCarrossel{
+    width:50%;
+    position:absolute;
+    margin-top: -53%;
+    margin-left:  40%;
+}
+
+.NossosParceiros2{
     width:37vh;
     position:absolute;
     top: 25%;
@@ -18,13 +47,73 @@
 }
 
 #fotoEquipe{
-    height: 90vh;
+    height: 97vh;
     margin-left: -3%;
 }
 
+.painelValores{
+    padding-top: 5%;
+}
+
+#listraVerde{
+    height: 60vh;
+}
+
+.divListra{
+    display:flex;
+    justify-content: end;
+    overflow: hidden;
+}
+
+.divListra > img {
+    height: 90rem;
+    margin-right: -16%;
+}
+
 #vetorVerde{
-    margin-top: 2%;
+    margin-top: 3.5%;
     height: 55vh;
 }
 
+.valoresETC{
+    margin-top: -12%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
 
+.itemValorETC{
+    width:20%;
+}
+
+.containerCarrosselNovo{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#SCarTitle {
+    width: 28rem;
+    height: 5rem;
+    background-color: green;
+    color: white;
+  
+    font-size: 3.5rem;
+    font-weight: 600;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+  
+    border-radius: 2rem 2rem 0rem 0rem;
+  }
+
+img {
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+  }

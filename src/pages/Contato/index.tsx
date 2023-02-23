@@ -15,6 +15,9 @@ const Contato = () => {
           <img src={ImgDeposito} alt="" id="ImgDeposito" />
           <div className="formaVerde"></div>
         </div>
+        <div>
+          
+        </div>
       </div>
       <Footer></Footer>
     </div>
