@@ -3,6 +3,7 @@ import Footer from "../../shared/Footer";
 import Form from "../../shared/Form";
 
 import Header from "../../shared/Header";
+import NewCarousel from "../../shared/SecondCarroussel";
 import Main2 from "./Main2";
 import { SecondBanner } from "./SecondBanner";
 
@@ -13,6 +14,7 @@ const Teste = () => {
       <img src={mainBanner} alt="Banner" id="mainBanner" />
       <Main2 />
       <SecondBanner />
+      <NewCarousel />
       <Form />
       <Footer />
     </div>
