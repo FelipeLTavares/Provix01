@@ -25,14 +25,14 @@ export const SecondBanner = () => {
         </div>
       </div>
 
-      {/* <div id="SCDados">
+      <div id="SCDados">
         <div id="SCNumeros">26</div>
         <div id="SCDescNumeros">MUNICÍPIOS</div>
         <div id="SCNumeros">1203</div>
         <div id="SCDescNumeros">ESCOLAS</div>
         <div id="SCNumeros">354.854</div>
         <div id="SCDescNumeros">ALUNOS</div>
-      </div> */}
+      </div>
     </div>
   );
 };
