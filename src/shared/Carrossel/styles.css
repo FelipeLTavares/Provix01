@@ -1,12 +1,15 @@
 .Geral {
   width: 100%;
+  max-width: 150%;
+  margin: 0 auto;
+  min-height: 50vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 30vh;
-  margin-top: -25vh;
+  height: 20vh;
+  position: absolute;
+  top: 55%;
 }
-
 img {
   user-select: none;
   -webkit-user-drag: none;
