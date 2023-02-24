@@ -1,18 +1,14 @@
-import mainBanner from "../../assets/Ativo 39.png";
-import Footer from "../../shared/Footer";
+import "./styles.css";
+
+import fundoAzul from "../../assets/SVG/Ativo 14.svg";
 
 import Header from "../../shared/Header";
-import Main2 from "./Main2";
-import { SecondBanner } from "./SecondBanner";
 
 const Teste = () => {
   return (
-    <div style={{ width: "100%", overflow: "hidden" }}>
+    <div id="empresaContainer">
       <Header />
-      <img src={mainBanner} alt="Banner" id="mainBanner" />
-      <Main2 />
-      <SecondBanner />
-      <Footer />
+      <img src={fundoAzul} alt="asd" id="empresaFundoAzul" />
     </div>
   );
 };

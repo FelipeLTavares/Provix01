@@ -1,12 +1,3 @@
-.generalContainer {
-  width: 100%;
-  height: 50vh;
-  background: gray;
-  overflow: hidden;
-
-  position: relative;
-}
-
 #mainBanner {
   width: 100%;
 }

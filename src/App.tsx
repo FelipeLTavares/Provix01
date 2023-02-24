@@ -1,8 +1,8 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import Inicio from "./pages/Inicio";
 import Empresa from "./pages/Empresa";
 import Contato from "./pages/Contato";
+import Inicio from "./pages/Inicio";
 import Teste from "./pages/Teste";
 
 const router = createBrowserRouter([

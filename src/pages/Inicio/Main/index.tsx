@@ -3,7 +3,7 @@ import "./styles.css";
 import excelenciaimg from "../../../assets/SVG/Ativo 33.svg";
 import img1 from "../../../assets/mainContentImg1.png";
 
-const Main2 = () => {
+const Main = () => {
   return (
     <div id="MCContainer">
       <div id="MCLeft">
@@ -48,4 +48,4 @@ const Main2 = () => {
   );
 };
 
-export default Main2;
+export default Main;
