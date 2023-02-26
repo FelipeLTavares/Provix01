@@ -1,66 +1,271 @@
-#ImgDeposito{
-    width: 60rem;
-    border-radius: 4rem 0rem 4rem 0rem;
+#containerUnidadesProvix {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: -38rem;
+}
+#unidadesProvix {
+  width: 37vh;
 }
 
-#fundoAzul{
-    width: 100%;
+#mobileUnidadesProvix {
+  display: none;
+}
+#mobileConhecaSedes {
+  display: none;
 }
 
-.containerFotoDeposito{
-    width:72rem;
-    display:flex;
-    justify-content: space-between;
-    position:relative;
+#containerFundoAzul {
+  width: 100%;
+  min-height: 50rem;
+}
+#fundoAzul {
+  width: 100%;
 }
 
-.containerMaps{
-    width:24rem;
+.conteudoContato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 5rem;
 }
 
-.conteudoContato{
-    display:flex;
-    justify-content: center;
-    margin-bottom: 10%;
-    margin-top: -17.5%;
+.containerFotoDeposito1 {
+  width: 72rem;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-radius: 4rem 4rem 0rem 0rem;
+  overflow: hidden;
+}
+.containerFotoDeposito2 {
+  width: 72rem;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-radius: 4rem 4rem 0rem 0rem;
+  overflow: hidden;
 }
 
-.formaVerde{
-    background-color:#06942d;
-    height:60%;
-    width:10rem;
-    border-radius: 0rem 2rem 0rem 0rem;
+#ImgDeposito {
+  width: 65rem;
 }
 
-#map{
-    position:absolute;
-    margin-top: 23%;
-    margin-left: 50.5%;
-    border-radius: 3rem 0rem 3rem 0rem;
-    box-shadow: 5px 8px 15px 2px #8A8A8A;
+.formaVerde {
+  background-color: #06942d;
+  height: 20rem;
+  width: 6rem;
 }
 
-#unidadesProvix{
-    width:37vh;
-    position:absolute;
-    top: 25%;
-    left:39.1%;
+.containerMaps {
+  width: 24rem;
 }
 
-.textosEnd{
-    position: absolute;
-    display: flex;
+#map1 {
+  margin-top: -15rem;
+  width: 24rem;
+  height: 24rem;
+  border-radius: 4rem 0rem 4rem 0rem;
+  overflow: hidden;
+}
+#map2 {
+  margin-top: -15rem;
+  width: 24rem;
+  height: 24rem;
+  border-radius: 0rem 4rem 0rem 4rem;
+  overflow: hidden;
+}
+
+.ContatoEndereco1 {
+  width: 72rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ContatoEndereco2 {
+  width: 72rem;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#ContatoEnderecoTextos1 {
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  overflow: visible;
+  text-align: start;
+}
+#ContatoEnderecoTextos2 {
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  overflow: visible;
+  text-align: end;
+}
+
+#endIracema {
+  color: #111182;
+  font-size: 3rem;
+}
+
+#endBR116 {
+  color: #06942d;
+  font-size: 2rem;
+}
+
+#Contatodivider {
+  margin: 10rem auto;
+  width: 40%;
+  height: 1rem;
+  border-radius: 1rem;
+  margin-top: 10rem;
+  background-color: green;
+}
+
+@media only screen and (max-width: 1367px) {
+  #containerUnidadesProvix {
+    margin-top: -38rem;
+  }
+
+  #unidadesProvix {
+    width: 25vh;
+  }
+
+  .conteudoContato {
+  }
+
+  .containerFotoDeposito1 {
+    width: 50rem;
+    height: 35rem;
+  }
+  .containerFotoDeposito2 {
+    width: 50rem;
+    height: 35rem;
+  }
+
+  #ImgDeposito {
+    width: 44rem;
+  }
+
+  .formaVerde {
+    width: 5rem;
+    height: 15rem;
+  }
+
+  .ContatoEndereco1 {
+    width: 50rem;
+    height: 8rem;
+    margin-top: -10rem;
+  }
+  .ContatoEndereco2 {
+    width: 50rem;
+    height: 8rem;
+    margin-top: -10rem;
+  }
+
+  #map1 {
+    margin-top: -9rem;
+    width: 23rem;
+    height: 18rem;
+  }
+  #map2 {
+    margin-top: -9rem;
+    width: 23rem;
+    height: 18rem;
+  }
+
+  #endIracema {
+    font-size: 2.2rem;
+  }
+
+  #endBR116 {
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (max-width: 1188px) {
+  #containerUnidadesProvix {
     flex-direction: column;
-    margin-top: 38%; 
-    margin-right: 38.6%;
+    align-items: center;
+  }
+
+  #unidadesProvix {
+    display: none;
+  }
+
+  #mobileUnidadesProvix {
+    display: flex;
+    font-size: 3rem;
+    font-weight: 600;
+    color: gray;
+  }
+
+  #mobileConhecaSedes {
+    display: flex;
+    font-size: 1rem;
+    font-weight: 600;
+    background: green;
+    color: lightgray;
+    padding: 0.2rem 0.5rem;
+    border-radius: 1rem;
+  }
 }
 
-#endIracema{
-    color:#111182;
-    font-size:3rem;
-}
+@media only screen and (max-width: 900px) {
+  .conteudoContato {
+    width: 100%;
+  }
 
-#endBR116{
-    color: #06942d;
-    font-size: 2rem;
+  .containerFotoDeposito1 {
+    width: 25rem;
+    height: 15rem;
+  }
+  .containerFotoDeposito2 {
+    width: 25rem;
+    height: 15rem;
+  }
+  #ImgDeposito {
+    width: 25rem;
+  }
+  .formaVerde {
+    display: none;
+  }
+
+  .ContatoEndereco1 {
+    flex-direction: column;
+    width: 25rem;
+    height: 21rem;
+    margin: 0;
+  }
+  .ContatoEndereco2 {
+    flex-direction: column;
+    width: 25rem;
+    height: 21rem;
+    margin: 0;
+  }
+  #ContatoEnderecoTextos1 {
+    width: 25rem;
+    margin: 0;
+  }
+  #ContatoEnderecoTextos2 {
+    width: 25rem;
+    margin: 0;
+  }
+  #map {
+    margin: 0;
+    width: 25rem;
+    height: 17rem;
+  }
+
+  #endIracema {
+    font-size: 1.4rem;
+  }
+
+  #endBR116 {
+    font-size: 0.8rem;
+  }
 }

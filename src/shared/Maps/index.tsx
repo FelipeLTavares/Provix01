@@ -1,46 +1,45 @@
-import React from 'react'
-import { GoogleMap, useJsApiLoader, Marker } from '@react-google-maps/api';
+import React from "react";
+import { GoogleMap, useJsApiLoader, Marker } from "@react-google-maps/api";
 
 const containerStyle = {
-  width: '100%',
-  height: '100%',
-  borderRadius: '4rem 0rem 4rem 0rem',
+  width: "100%",
+  height: "100%",
 };
 
 const center = {
   lat: -3.8089163949631306,
-  lng: -38.50061666975614
+  lng: -38.50061666975614,
 };
-
 
 const Maps = () => {
   const { isLoaded } = useJsApiLoader({
-    id: 'google-map-script',
-    googleMapsApiKey: "AIzaSyA486Zf0COKeNTKbp3DqhauhFUBrBIXlNw"
-  })
+    id: "google-map-script",
+    googleMapsApiKey: "AIzaSyA486Zf0COKeNTKbp3DqhauhFUBrBIXlNw",
+  });
 
-  const [map, setMap] = React.useState(null)
-
+  const [map, setMap] = React.useState(null);
 
   const onUnmount = React.useCallback(function callback(map: any) {
-    setMap(null)
-  }, [])
+    setMap(null);
+  }, []);
 
   return isLoaded ? (
-    <div style={{width: '24rem', height: '24rem'}}>
+    <div style={{ width: "100%", height: "100%" }}>
       <GoogleMap
         mapContainerStyle={containerStyle}
         center={center}
         zoom={17}
         onUnmount={onUnmount}
       >
-        <Marker 
-        position={center}
-        label={{text:'Provix',color:'#b1120c', fontWeight: '700'}}
+        <Marker
+          position={center}
+          label={{ text: "Provix", color: "#b1120c", fontWeight: "700" }}
         ></Marker>
       </GoogleMap>
     </div>
-  ) : <></>
-}
+  ) : (
+    <></>
+  );
+};
 
 export default Maps;
