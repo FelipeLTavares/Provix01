@@ -1,26 +1,66 @@
 #ImgDeposito{
-    width: 85%;
+    width: 60rem;
     border-radius: 4rem 0rem 4rem 0rem;
 }
 
+#fundoAzul{
+    width: 100%;
+}
+
 .containerFotoDeposito{
-    width:75%;
+    width:72rem;
     display:flex;
     justify-content: space-between;
+    position:relative;
 }
 
 .containerMaps{
-    width:25%;
+    width:24rem;
 }
 
 .conteudoContato{
     display:flex;
     justify-content: center;
+    margin-bottom: 10%;
+    margin-top: -17.5%;
 }
 
 .formaVerde{
     background-color:#06942d;
     height:60%;
-    width:12%;
+    width:10rem;
     border-radius: 0rem 2rem 0rem 0rem;
+}
+
+#map{
+    position:absolute;
+    margin-top: 23%;
+    margin-left: 50.5%;
+    border-radius: 3rem 0rem 3rem 0rem;
+    box-shadow: 5px 8px 15px 2px #8A8A8A;
+}
+
+#unidadesProvix{
+    width:37vh;
+    position:absolute;
+    top: 25%;
+    left:39.1%;
+}
+
+.textosEnd{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    margin-top: 38%; 
+    margin-right: 38.6%;
+}
+
+#endIracema{
+    color:#111182;
+    font-size:3rem;
+}
+
+#endBR116{
+    color: #06942d;
+    font-size: 2rem;
 }

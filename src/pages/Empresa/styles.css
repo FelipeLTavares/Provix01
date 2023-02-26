@@ -26,15 +26,14 @@
     margin-left:  10%;
 }
 
-.divDoCarrossel{
-    width:50%;
+.carrosselAreas{
     position:absolute;
-    margin-top: -53%;
-    margin-left:  40%;
+    margin-top: -47%;
+    margin-left:  43%;
 }
 
 .NossosParceiros2{
-    width:37vh;
+    width:17rem;
     position:absolute;
     top: 25%;
     left:39.1%;
@@ -46,8 +45,13 @@
     padding-top: 10%;
 }
 
+#vetorVerde{
+    margin-top: 3.5%;
+    height: 26rem;
+}
+
 #fotoEquipe{
-    height: 97vh;
+    height: 44rem;
     margin-left: -3%;
 }
 
@@ -56,7 +60,7 @@
 }
 
 #listraVerde{
-    height: 60vh;
+    height: 28.5rem;
 }
 
 .divListra{
@@ -68,11 +72,6 @@
 .divListra > img {
     height: 90rem;
     margin-right: -16%;
-}
-
-#vetorVerde{
-    margin-top: 3.5%;
-    height: 55vh;
 }
 
 .valoresETC{
@@ -98,7 +97,7 @@
 #SCarTitle {
     width: 28rem;
     height: 5rem;
-    background-color: green;
+    background-color: #07942d;
     color: white;
   
     font-size: 3.5rem;
@@ -116,4 +115,108 @@ img {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
+  }
+
+  @media only screen and (max-width: 1367px) {
+
+  }
+  
+  @media only screen and (max-width: 1004px) {
+  
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .valoresETC{
+        margin-top: -12%;
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+    }
+
+    .itemValorETC{
+        width:80%;
+    }
+
+    .ConhecaOTime{
+        width:100%;
+        display:flex;
+        flex-direction: column;
+    }
+
+    #fotoEquipe{
+        margin:0;
+    }
+    
+    #vetorVerde{
+        margin-bottom: -50.5%;
+        width: 25rem;
+        height: 22rem;
+    }
+    #SCarTitle {
+        width: 10rem;
+        height: 3rem;
+        color: white;
+      
+        font-size: 1.3rem;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+        border-radius: 1rem 1rem 0rem 0rem;
+      }
+      .NossosParceiros2{
+        width:37vh;
+        position:absolute;
+        top: 25%;
+        left:39.1%;
+        display:none;
+    }
+    .carrosselAreas{
+        position:absolute;
+        margin-top: -47%;
+        margin-left:  43%;
+    }
+    .containerCarrosselNovo{
+        width: 100%;
+        margin-top: -40%;
+        margin-bottom: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .divListra {
+        display:none;
+    }
+    .AreasDeAtuacao{
+        margin-top: 55%;
+        margin-bottom: 30%;
+    }
+    
+    #Xbranco{
+        width: 80%;
+        position:static;
+    }
+    
+    #nossasAreas{
+        width:17%;
+        position:static;
+        margin-bottom: 40%;
+    }
+    
+    #caminhao{
+        width:47%;
+        display:none;
+    }
+    
+    .carrosselAreas{
+        display:flex;
+        align-items:center;
+        position:static;
+        margin-left:40%;
+        margin-top:-60%;
+    }
   }

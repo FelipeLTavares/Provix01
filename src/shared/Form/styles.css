@@ -65,21 +65,21 @@
   width: 32.5rem;
   height: 10vh;
   border-radius: 10vh;
-  border: 2px solid green;
+  border: 2px solid #1d9c40;
   font-size: 1.2rem;
   padding-left: 2rem;
   z-index: 6;
 }
 
 ::placeholder {
-  color: green;
+  color: #1d9c40;
   opacity: 1;
 }
 
 #formButton {
   padding-right: 2rem;
   width: 35rem;
-  background-color: green;
+  background-color: #1d9c40;
   color: white;
   display: flex;
   align-items: center;

@@ -16,6 +16,7 @@ import NossasAreas from "../../assets/Ativo 40.png";
 import NossosParceiros from "../../assets/Ativo 35.png";
 import Form from "../../shared/Form";
 import NewCarousel from "../../shared/SecondCarroussel";
+import NewCarousel2 from "../../shared/ThirdCarroussel";
 
 
 const Empresa = () => {
@@ -29,6 +30,9 @@ const Empresa = () => {
         <img src={Xbranco} alt="" id="Xbranco"/>
         <div>
           <img src={NossasAreas} alt="" id="nossasAreas"/>
+        </div>
+        <div className="carrosselAreas">
+          <NewCarousel2 />
         </div>
         <div>
           <img src={caminhao} alt="" id="caminhao"/>

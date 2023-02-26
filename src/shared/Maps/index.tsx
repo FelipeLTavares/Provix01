@@ -1,14 +1,46 @@
-import React from "react";
+import React from 'react'
+import { GoogleMap, useJsApiLoader, Marker } from '@react-google-maps/api';
 
-interface MapsProps {
-  coordinates: [number, number];
-  mapId: string;
-}
-
-const Maps: React.FC<MapsProps> = ({ coordinates, mapId }) => {
-  return (
-    <></>
-  );
+const containerStyle = {
+  width: '100%',
+  height: '100%',
+  borderRadius: '4rem 0rem 4rem 0rem',
 };
+
+const center = {
+  lat: -3.8089163949631306,
+  lng: -38.50061666975614
+};
+
+
+const Maps = () => {
+  const { isLoaded } = useJsApiLoader({
+    id: 'google-map-script',
+    googleMapsApiKey: "AIzaSyA486Zf0COKeNTKbp3DqhauhFUBrBIXlNw"
+  })
+
+  const [map, setMap] = React.useState(null)
+
+
+  const onUnmount = React.useCallback(function callback(map: any) {
+    setMap(null)
+  }, [])
+
+  return isLoaded ? (
+    <div style={{width: '24rem', height: '24rem'}}>
+      <GoogleMap
+        mapContainerStyle={containerStyle}
+        center={center}
+        zoom={17}
+        onUnmount={onUnmount}
+      >
+        <Marker 
+        position={center}
+        label={{text:'Provix',color:'#b1120c', fontWeight: '700'}}
+        ></Marker>
+      </GoogleMap>
+    </div>
+  ) : <></>
+}
 
 export default Maps;

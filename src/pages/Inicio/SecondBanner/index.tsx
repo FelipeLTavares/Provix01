@@ -25,13 +25,13 @@ export const SecondBanner = () => {
         </div>
       </div>
 
-      <div id="SCDados">
-        <div id="SCNumeros">26</div>
-        <div id="SCDescNumeros">MUNICÍPIOS</div>
-        <div id="SCNumeros">1203</div>
-        <div id="SCDescNumeros">ESCOLAS</div>
-        <div id="SCNumeros">354.854</div>
-        <div id="SCDescNumeros">ALUNOS</div>
+      <div id="SBDados">
+        <div className="SBNumeros">26</div>
+        <div className="SBLetras">MUNICÍPIOS</div>
+        <div className="SBNumeros">1203</div>
+        <div className="SBLetras">ESCOLAS</div>
+        <div className="SBNumeros">354.854</div>
+        <div className="SBLetras">ALUNOS</div>
       </div>
     </div>
   );
