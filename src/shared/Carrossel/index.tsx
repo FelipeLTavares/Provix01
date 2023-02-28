@@ -11,7 +11,9 @@ interface Image {
     [key: string]: any;
 }
 
-const images: Image = {logo1, logo2, logo3, logo4, logo5}
+const images: Image = { logo1, logo2, logo3, logo4, logo5 }
+
+const repeatedImages = [...Object.values(images),...Object.values(images),...Object.values(images),...Object.values(images),...Object.values(images),...Object.values(images),...Object.values(images),...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images)];
 
 const Carrossel = (): JSX.Element => {
     const carousel = useRef<HTMLDivElement>(null);
@@ -19,29 +21,29 @@ const Carrossel = (): JSX.Element => {
 
     useEffect(() => {
         if (carousel.current) {
-          setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
+            setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
         }
     }, []);
-    
 
-  return (
-    <div className="Geral">
-        <motion.div className="carousel" whileTap={{ cursor: "grabbing"}}>
-            <motion.div className="inner"
-            drag="x" 
-            dragConstraints={{ right:200, left: -550}}
-            initial={{ x:200 }}
-            animate={{ x:-60 }}
-            transition={{ duration: 0.8 }}>
-                {Object.values(images).map((image: any) => (
-                    <motion.div className="item" key={image}>
-                        <img src={image} alt="logo"/>
-                    </motion.div>
-                ))}
+
+    return (
+        <div className="Geral">
+            <motion.div className="carousel" whileTap={{ cursor: "grabbing" }}>
+                <motion.div className="inner"
+                    drag="x"
+                    dragConstraints={{ right: 200, left: -30700 }}
+                    initial={{ x: 0 }}
+                    animate={{ x: -11180 }}
+                    transition={{ duration: 1 }}>
+                    {repeatedImages.map((image: any, index: number) => (
+                        <motion.div className="item" key={index}>
+                            <img src={image} alt="logo" />
+                        </motion.div>
+                    ))}
+                </motion.div>
             </motion.div>
-        </motion.div>
-    </div>
-  );
+        </div>
+    );
 };
 
 export default Carrossel;

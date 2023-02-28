@@ -6,6 +6,7 @@ import fundoAzul from "../../assets/SVG/Ativo 14.svg";
 import ImgDeposito from "../../assets/mainContentImg1.png";
 import Unidades from "../../assets/Ativo 41.png";
 import Maps from "../../shared/Maps";
+import Maps2 from "../../shared/Maps2";
 
 const Contato = () => {
   return (
@@ -50,12 +51,12 @@ const Contato = () => {
 
         <div className="ContatoEndereco2">
           <div id="ContatoEnderecoTextos2">
-            <span id="endIracema">Parque Iracema, 2799 A</span>
-            <span id="endBR116">BR 116 • Fortaleza</span>
+            <span id="endIracema2">R. Francisco José Pereira Albuquerque, 900</span>
+            <span id="endBR116">Cajazeiras • Fortaleza</span>
           </div>
 
           <div id="map2">
-            <Maps />
+            <Maps2 />
           </div>
         </div>
       </div>

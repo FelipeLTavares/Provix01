@@ -14,7 +14,7 @@
 }
 
 #headerLinks {
-  width: 65%;
+  width: 60% !important;
   display: flex;
   align-items: center;
   justify-content: space-between;

@@ -54,15 +54,6 @@ const Empresa = () => {
           <img src={ImgValores} alt="" className="itemValorETC" />
         </div>
       </div>
-      <div className="ConhecaOTime">
-        <img src={VetorVerde} alt="" id="vetorVerde" />
-        <img src={fotoEquipe} alt="" id="fotoEquipe" />
-      </div>
-      <div className="containerCarrosselNovo">
-        <div id="SCarTitle">Nossas Ações</div>
-        <NewCarousel />
-      </div>
-      <Form />
       <Footer />
     </div>
   )

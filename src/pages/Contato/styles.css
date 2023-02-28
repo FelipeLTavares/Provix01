@@ -114,6 +114,10 @@
   color: #111182;
   font-size: 3rem;
 }
+#endIracema2 {
+  color: #111182;
+  font-size: 2.5rem;
+}
 
 #endBR116 {
   color: #06942d;
@@ -188,6 +192,9 @@
 
   #endIracema {
     font-size: 2.2rem;
+  }
+  #endIracema2 {
+    font-size: 2rem;
   }
 
   #endBR116 {
@@ -282,6 +289,9 @@
 
   #endIracema {
     font-size: 1.4rem;
+  }
+  #endIracema {
+    font-size: 1.2rem;
   }
 
   #endBR116 {

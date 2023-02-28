@@ -19,8 +19,8 @@ const Header = () => {
           <Link to="/empresa" className="navLink">
             EMPRESA
           </Link>
-          <Link to="/empresa" className="navLink">
-            EQUIPE
+          <Link to="/equipe" className="navLink">
+            QUEM SOMOS
           </Link>
           <Link to="/contato" className="navLink">
             CONTATO
