@@ -31,7 +31,7 @@ const Carrossel = (): JSX.Element => {
             drag="x" 
             dragConstraints={{ right:200, left: -550}}
             initial={{ x:200 }}
-            animate={{ x:-230 }}
+            animate={{ x:-60 }}
             transition={{ duration: 0.8 }}>
                 {Object.values(images).map((image: any) => (
                     <motion.div className="item" key={image}>

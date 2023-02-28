@@ -47,13 +47,42 @@
 }
 
 @media only screen and (max-width: 1004px) {
+  #SCarImg2 {
+    width: 25rem;
+    height: 17rem;
+    border-radius: 2rem;
+    object-fit: cover;
+  }
+  
+  .SCarBtn2 {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: #111182;
+    border-radius: 50%;
+    z-index: 7;
+  }
+  
+#trianguloParaEsquerda2 {
+  width: 0;
+  height: 0;
+  border-top: 0.5rem solid transparent;
+  border-bottom: 0.5rem solid transparent;
+  border-right: 0.5rem solid white;
+}
 
+#trianguloParaDireita2 {
+  width: 0;
+  height: 0;
+  border-top: 0.5rem solid transparent;
+  border-bottom: 0.5rem solid transparent;
+  border-left: 0.5rem solid white;
+}
 }
 
 @media only screen and (max-width: 600px) {
   #SCarImg2 {
-    width: 15rem;
-    height: 10rem;
+    width: 15.5rem;
+    height: 12rem;
     border-radius: 2rem;
     object-fit: cover;
   }

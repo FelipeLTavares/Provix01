@@ -61,7 +61,30 @@
 }
 
 @media only screen and (max-width: 1004px) {
+  .footer{
+    display:flex;
+    flex-direction: column;
+    background-color: #111182;
+    justify-content: center;
+    gap: 2rem;
+  }
+  .containerFooter{
+    margin-top: 80%;
+  }
+  .fundo{
+    display: none;
+  }
+  .colunaFooter{
+    display:flex;
+    gap: 1.5rem;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+  }
 
+  #logoFooter{
+    margin-top:10%;
+  }
 }
 
 @media only screen and (max-width: 600px) {

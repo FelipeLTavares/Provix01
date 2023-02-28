@@ -23,24 +23,30 @@ const Empresa = () => {
   return (
     <div className="containerEmpresa">
       <Header2 />
-      <img src={NossosParceiros} alt="" className="NossosParceiros2" />
+      <div>
+        <img src={NossosParceiros} alt="" className="NossosParceiros2" />
+        <div className="NossosParceiros3">
+          <span id="mobileUnidadesProvix">Nossos Parceiros</span>
+          <span id="mobileConhecaSedes">Conheça todos eles!</span>
+        </div>
+      </div>
       <Carrossel />
       <img src={fundoAzul} alt="" id="fundoAzul" />
       <div className="AreasDeAtuacao">
-        <img src={Xbranco} alt="" id="Xbranco"/>
+        <img src={Xbranco} alt="" id="Xbranco" />
         <div>
-          <img src={NossasAreas} alt="" id="nossasAreas"/>
+          <img src={NossasAreas} alt="" id="nossasAreas" />
         </div>
         <div className="carrosselAreas">
           <NewCarousel2 />
         </div>
         <div>
-          <img src={caminhao} alt="" id="caminhao"/>
+          <img src={caminhao} alt="" id="caminhao" />
         </div>
       </div>
       <div className="painelValores">
         <div className="divListra">
-          <img src={listraVerde} alt="" id="listraVerde"/>
+          <img src={listraVerde} alt="" id="listraVerde" />
         </div>
         <div className="valoresETC">
           <img src={ImgMissao} alt="" className="itemValorETC" />

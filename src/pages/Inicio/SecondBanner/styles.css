@@ -60,25 +60,25 @@
 }
 
 #SBMenino > img {
-  height: 90rem;
-  margin-left: -45rem;
-  margin-top: -12rem;
+  height: 80rem;
+  margin-left: -40rem;
+  margin-top: -16rem;
 }
 
 #SCMapaCeara {
   width: 40rem;
-  padding-top: 4rem;
+  padding-top: 2rem;
   z-index: 7;
 }
 
 #SCMapaCeara > img {
-  width: 55rem;
-  margin-bottom: 50rem;
-  margin-left: -5rem;
+  width: 50rem;
+  margin-bottom: 0rem;
+  margin-left: 0rem;
 }
 
 #SBDados {
-  height: 90rem;
+  height: 38rem;
   align-self: center;
   border-left: 0.5rem solid navy;
   display: flex;
@@ -87,6 +87,7 @@
   z-index: -1;
   margin-left: 35rem;
   padding-left: 2rem;
+  margin-bottom: 14rem;
 }
 
 .SBNumeros {
@@ -178,6 +179,7 @@
     height: 60rem;
     margin-left: 25rem;
     padding-left: 1rem;
+    margin-bottom:0;
   }
 
   .SBNumeros {
@@ -191,6 +193,37 @@
 
 @media only screen and (max-width: 600px) {
   #SBDados {
-    margin-left: 20rem;
+    margin-left: 15rem;
+  }
+  #SBMenino {
+    width: 20rem;
+  }
+
+  #SBMenino > img {
+    height: 50rem;
+    margin-left: -30rem;
+    margin-top: 0;
+  }
+
+  #SCMapaCeara {
+    width: 27rem;
+    padding-top: 7rem;
+  }
+
+  #SCMapaCeara > img {
+    width: 30rem;
+    margin-left: -1rem;
+  }
+
+  #SBDados {
+    height: 60rem;
+  }
+
+  .SBNumeros {
+    font-size: 1.8rem;
+  }
+
+  .SBLetras {
+    font-size: 0.9rem;
   }
 }

@@ -172,5 +172,32 @@
   }
   #mainForm {
     margin: 0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #formContainer {
+    height: 75vh;
+  }
+
+  #formHeader {
+    height: 20.5vh;
+    width: 22.5rem;
+    border-radius: 2.5rem;
+  }
+  #formConosco{
+    font-size: 4.5rem;
+  }
+  #formTrabalhe{
+    font-size: 2rem;
+  }
+  .formInput {
+    width: 20.2rem;
+    height: 8vh;
+    font-size: 1.2rem;
+  }
+
+  #formButton {
+    width: 22.5rem;
   }
 }
