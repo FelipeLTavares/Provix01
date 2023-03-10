@@ -13,10 +13,10 @@ const Form = () => {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        "service_hqw4enu",
+        "template_ircsobz",
         form.current!,
-        "YOUR_PUBLIC_KEY"
+        "WF9ApWFBKgcBNdebR"
       )
       .then(
         (result) => {

@@ -3,7 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Empresa from "./pages/Empresa";
 import Contato from "./pages/Contato";
 import Inicio from "./pages/Inicio";
-import Equipe from "./pages/Equipe";
+import Equipe from "./pages/Sobre nós";
 
 const router = createBrowserRouter([
   { path: "/", element: <Inicio /> },

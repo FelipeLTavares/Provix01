@@ -33,10 +33,7 @@ const Main = () => {
 
       <div id="MCRight">
         <div id="MCVideo">
-          <iframe
-            src="https://www.youtube.com/embed/tgbNymZ7vqY"
-            style={{ width: "100%", height: "100%" }}
-          ></iframe>
+        <img src={img1} alt="Img1" className="MCPhotoGrande" />
         </div>
 
         <div id="MCPhotos">
