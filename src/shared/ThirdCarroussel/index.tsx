@@ -1,11 +1,9 @@
 import "./styles.css";
-import fotoArea1 from "../../assets/area1.jpg";
-import fotoArea2 from "../../assets/area2.jpg";
-import fotoArea3 from "../../assets/area3.jpg";
-import fotoArea4 from "../../assets/area4.jpg";
-import fotoArea5 from "../../assets/area5.jpg";
-import fotoArea6 from "../../assets/area6.jpg";
-import fotoArea7 from "../../assets/area7.jpg";
+import fotoArea1 from "../../assets/ALIMENTOS.png";
+import fotoArea2 from "../../assets/CONGELADOS.png";
+import fotoArea3 from "../../assets/INFORMÁTICA.png";
+import fotoArea4 from "../../assets/LIMPEZA.png";
+import fotoArea5 from "../../assets/MATERIAL ESCOLAR.png";
 
 import { useState } from "react";
 
@@ -18,8 +16,6 @@ const NewCarousel2 = () => {
     fotoArea3,
     fotoArea4,
     fotoArea5,
-    fotoArea6,
-    fotoArea7
   ];
 
   const avancar = () => {
