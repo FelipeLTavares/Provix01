@@ -90,3 +90,9 @@
     color: white;
   }
 }
+
+@media only screen and (max-width: 800px) {
+  .mainHeader{
+    height: 6rem;
+  }
+}

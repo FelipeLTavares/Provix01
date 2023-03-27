@@ -15,8 +15,8 @@ const Equipe = () => {
     <div className="containerEmpresa">
       <Header2 />      
       <div className="NossosParceiros3">
-          <span id="textoEquipe1">Nossa<br/>Equipe</span>
-          <span id="textoEquipe2">Conheça todos eles!</span>
+          <span id="textoEquipe1">Quem<br/>Somos</span>
+          <span id="textoEquipe2">Conheça um pouco cobre nós!</span>
       </div>
       <img src={fundoAzul} alt="" id="fundoAzul" />
       <div className="ConhecaOTime2">

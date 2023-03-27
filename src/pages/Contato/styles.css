@@ -29,7 +29,7 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
-  margin-top: 5rem;
+  margin-top: 5rem; 
 }
 
 .containerFotoDeposito1 {
@@ -247,15 +247,20 @@
     color: lightgray;
   }
   .containerFotoDeposito1 {
-    width: 25rem;
+    width: 100%;
     height: 15rem;
+    place-content: center;
+    border-radius: 0;
   }
   .containerFotoDeposito2 {
-    width: 25rem;
+    width: 100%;
     height: 15rem;
+    place-content: center;
+    border-radius: 0;
   }
   #ImgDeposito {
-    width: 24.5rem;
+    width: 90%;
+    border-radius: 1rem;
   }
   .formaVerde {
     display: none;
@@ -263,39 +268,118 @@
 
   .ContatoEndereco1 {
     flex-direction: column;
-    width: 25rem;
+    width: 100%;
+    height: 21rem;
+    margin: 0;
+    align-items: end;
+    margin-right: 10%;
+  }
+  .ContatoEndereco2 {
+    flex-direction: column;
+    width: 100%;
+    height: 21rem;
+    margin: 0;
+    align-items: start;
+  }
+  #ContatoEnderecoTextos1 {
+    width: 100%;
+    margin: 0;
+  }
+  #ContatoEnderecoTextos2 {
+    width: 100%;
+    margin: 0;
+  }
+  #map {
+    margin: 0;
+    width: 100%;
+    height: 17rem;
+  }
+  #map2{
+    margin-bottom: 0%;
+    margin-left: 5%;
+  }
+  #endIracema {
+    font-size: 1.7rem;
+    padding: 0% 0% 0% 10%;
+  }
+  #endIracema2 {
+    font-size: 1.7rem;
+    padding: 0% 5% 0% 0%;
+  }
+  #endBR116 {
+    font-size: 1.3rem;
+    padding: 0% 5% 0% 10%;
+  }
+
+  .containerUnidadesProvix{
+    text-align: -webkit-center;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .conteudoContato {
+    width: 100%;
+  }
+  #mobileUnidadesProvix{
+    margin-top:10%;
+    color: gray;
+  }
+  #mobileConhecaSedes{
+    color: lightgray;
+  }
+  .containerFotoDeposito1 {
+    width: 100%;
+    height: 15rem;
+  }
+  .containerFotoDeposito2 {
+    width: 100%;
+    height: 15rem;
+  }
+  #ImgDeposito {
+    width: 100%;
+  }
+  .formaVerde {
+    display: none;
+  }
+
+  .ContatoEndereco1 {
+    flex-direction: column;
+    width: 100%;
     height: 21rem;
     margin: 0;
   }
   .ContatoEndereco2 {
     flex-direction: column;
-    width: 25rem;
+    width: 100%;
     height: 21rem;
     margin: 0;
   }
   #ContatoEnderecoTextos1 {
-    width: 25rem;
+    width: 100%;
     margin: 0;
   }
   #ContatoEnderecoTextos2 {
-    width: 25rem;
+    width: 100%;
     margin: 0;
   }
   #map {
     margin: 0;
-    width: 25rem;
+    width: 100%;
     height: 17rem;
   }
-
-  #endIracema {
-    font-size: 1.4rem;
+  #map2{
+    margin-bottom: -5%;
   }
   #endIracema {
     font-size: 1.2rem;
+    padding: 0% 0% 0% 1%;
   }
-
+  #endIracema2 {
+    font-size: 1.2rem;
+    padding: 0% 1% 0% 0%;
+  }
   #endBR116 {
     font-size: 0.8rem;
+    padding: 0% 1% 0% 1%;
   }
 
   .containerUnidadesProvix{
