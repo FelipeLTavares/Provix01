@@ -5,7 +5,7 @@ import Footer from "../../shared/Footer";
 import fundoAzul from "../../assets/SVG/Ativo 14.svg";
 import fotoEquipe from "../../assets/SVG/Ativo 17.svg";
 import VetorVerde from "../../assets/Ativo 37.png";
-import fotoTime from "../../assets/fototime.jpg";
+import fotoTime from "../../assets/foto3.jpg";
 import Form from "../../shared/Form";
 import NewCarousel from "../../shared/SecondCarroussel";
 

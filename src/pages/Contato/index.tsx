@@ -3,10 +3,9 @@ import "./styles.css";
 import Header2 from "../../shared/Header2";
 import Footer from "../../shared/Footer";
 import fundoAzul from "../../assets/SVG/Ativo 14.svg";
-import ImgDeposito from "../../assets/mainContentImg1.png";
+import ImgDeposito from "../../assets/foto4.jpg";
 import Unidades from "../../assets/Ativo 41.png";
 import Maps from "../../shared/Maps";
-import Maps2 from "../../shared/Maps2";
 
 const Contato = () => {
   return (
@@ -37,26 +36,6 @@ const Contato = () => {
 
           <div id="map1">
             <Maps />
-          </div>
-        </div>
-      </div>
-
-      <div id="Contatodivider" />
-
-      <div className="conteudoContato">
-        <div className="containerFotoDeposito2">
-          <img src={ImgDeposito} alt="" id="ImgDeposito" />
-          <div className="formaVerde" />
-        </div>
-
-        <div className="ContatoEndereco2">
-          <div id="ContatoEnderecoTextos2">
-            <span id="endIracema2">R. Francisco José Pereira Albuquerque, 900</span>
-            <span id="endBR116">Cajazeiras • Fortaleza</span>
-          </div>
-
-          <div id="map2">
-            <Maps2 />
           </div>
         </div>
       </div>

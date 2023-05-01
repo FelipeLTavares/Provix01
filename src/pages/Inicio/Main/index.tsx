@@ -1,7 +1,9 @@
 import "./styles.css";
 
 import excelenciaimg from "../../../assets/SVG/Ativo 33.svg";
-import img1 from "../../../assets/mainContentImg1.png";
+import img1 from "../../../assets/foto5.png";
+import img2 from "../../../assets/foto2.jpg";
+import img3 from "../../../assets/foto3.jpg";
 
 const Main = () => {
   return (
@@ -37,8 +39,8 @@ const Main = () => {
         </div>
 
         <div id="MCPhotos">
-          <img src={img1} alt="Img1" className="MCPhoto" />
-          <img src={img1} alt="Img1" className="MCPhoto" />
+          <img src={img2} alt="Img1" className="MCPhoto" />
+          <img src={img3} alt="Img1" className="MCPhoto" />
         </div>
       </div>
     </div>
