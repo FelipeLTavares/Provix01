@@ -16,20 +16,21 @@ const Main = () => {
         <div id="MCSubtitle">É O QUE ENTREGAMOS</div>
 
         <div id="MCLeftContent">
-          <p>
-            Em 2004 a Francisca gardia após vir do interior de mombaça resolve
-            criar sua primeira chamada Digital Informatica, onde começou a
-            vender materiais de Informatica e materiais escolares.
+          <p style={{marginBottom: '-4%', fontSize: '1.2rem'}}>
+            Criada em 2011 pela empresária cearense Francisca Gardia, a Provix Distribuidora é uma empresa focada na distribuição de produtos alimentícios, higiene pessoal, limpeza, entre outros. 
           </p>
-          <p>
-            Após 8 anos nesse mercado e observando às mudanças que o mercado
-            estava sofrendo, decidiu acrescentar mais produtos em seu Portfólio
-            e focar mais no setor alimentício e de material de limpeza, ao fazer
-            isso foi necessário mudar de nome e assim nasceu a provix
-            distribuidora em 2011, uma empresa focada na distribuição de
-            produtos alimentícios, higiene pessoal, limpeza…
+          <p style={{marginBottom: '-4%', fontSize: '1.2rem'}}>
+            Atualmente atende todos os municípios do Ceará, comercializando um mix variado de produtos. 
           </p>
-          <p>Que atua em toda região nordeste.</p>
+          <p style={{marginBottom: '-4%', fontSize: '1.2rem'}}>
+            Investe permanentemente em tecnologia, mantém relações comerciais de confiança por meio do cumprimento de todos os compromissos com clientes e fornecedores. Leva em conta o respeito, a ética, a humildade e a disciplina em cada negócio.
+          </p>
+          <p style={{marginBottom: '-4%', fontSize: '1.2rem'}}>
+            Nesses anos de atividade empresarial, a Provix tem passado por processos de melhoria contínua de suas atividades, buscando se adaptar ao mercado cada vez mais competitivo, evoluindo na atuação e identificação no seu segmento.   
+          </p>
+          <p style={{fontSize: '1.2rem'}}>
+            Sempre incorporando novas parcerias e produto de qualidade, a Provix segue os valores adquiridos no passado e o olhar firme no futuro.
+          </p>
         </div>
       </div>
 
