@@ -12,7 +12,7 @@ import logo9 from '../../assets/IMG_0612.png'
 import logo10 from '../../assets/IMG_0613.png'
 import logo11 from '../../assets/IMG_0614.png'
 import logo12 from '../../assets/IMG_0615.png'
-import logo13 from '../../assets/IMG_0616.webp'
+// import logo13 from '../../assets/IMG_0616.webp'
 import logo14 from '../../assets/IMG_0617.png'
 import logo15 from '../../assets/IMG_0619.png'
 import logo17 from '../../assets/IMG_0621.png'
@@ -22,7 +22,7 @@ interface Image {
     [key: string]: any;
 }
 
-const images: Image = { logo1, logo2, logo3, logo4, logo5, logo7, logo8, logo9, logo10, logo11, logo12, logo13, logo14, logo15, logo17, logo18 }
+const images: Image = { logo1, logo2, logo3, logo4, logo5, logo7, logo8, logo9, logo10, logo11, logo12, logo14, logo15, logo17, logo18 }
 
 const repeatedImages = [...Object.values(images),...Object.values(images),...Object.values(images),...Object.values(images),...Object.values(images),...Object.values(images),...Object.values(images),...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images)];
 
