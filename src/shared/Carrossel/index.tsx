@@ -22,6 +22,7 @@ interface Image {
     [key: string]: any;
 }
 
+
 const images: Image = { logo1, logo2, logo3, logo4, logo5, logo7, logo8, logo9, logo10, logo11, logo12, logo13, logo14, logo15, logo17, logo18 }
 
 const repeatedImages = [...Object.values(images),...Object.values(images),...Object.values(images),...Object.values(images),...Object.values(images),...Object.values(images),...Object.values(images),...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images)];
