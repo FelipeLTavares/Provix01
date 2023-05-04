@@ -6,26 +6,26 @@ import logo2 from '../../assets/SVG/Ativo 8.svg'
 import logo3 from '../../assets/SVG/Ativo 9.svg'
 import logo4 from '../../assets/SVG/Ativo 10.svg'
 import logo5 from '../../assets/SVG/Ativo 11.svg'
-import logo7 from '../../assets/SVG/IMG_0610.png'
-import logo8 from '../../assets/SVG/IMG_0611.png'
-import logo9 from '../../assets/SVG/IMG_0612.png'
-import logo10 from '../../assets/SVG/IMG_0613.png'
-import logo11 from '../../assets/SVG/IMG_0614.png'
-import logo12 from '../../assets/SVG/IMG_0615.png'
-import logo13 from '../../assets/SVG/IMG_0616.webp'
-import logo14 from '../../assets/SVG/IMG_0617.png'
-import logo15 from '../../assets/SVG/IMG_0619.png'
-import logo17 from '../../assets/SVG/IMG_0621.png'
-import logo18 from '../../assets/SVG/IMG_0622.png'
+import logo7 from '../../assets/IMG_0610.png'
+import logo8 from '../../assets/IMG_0611.png'
+import logo9 from '../../assets/IMG_0612.png'
+import logo10 from '../../assets/IMG_0613.png'
+import logo11 from '../../assets/IMG_0614.png'
+import logo12 from '../../assets/IMG_0615.png'
+import logo13 from '../../assets/IMG_0616.webp'
+import logo14 from '../../assets/IMG_0617.png'
+import logo15 from '../../assets/IMG_0619.png'
+import logo16 from '../../assets/IMG_0620.png'
+import logo17 from '../../assets/IMG_0621.png'
+import logo18 from '../../assets/IMG_0622.png'
 
 interface Image {
     [key: string]: any;
 }
 
+const images: Image = { logo1, logo2, logo3, logo4, logo5, logo7, logo8, logo9, logo10, logo11, logo12, logo13, logo14, logo15, logo16, logo17, logo18 }
 
-const images: Image = { logo1, logo2, logo3, logo4, logo5, logo7, logo8, logo9, logo10, logo11, logo12, logo13, logo14, logo15, logo17, logo18 }
-
-const repeatedImages = [...Object.values(images),...Object.values(images),...Object.values(images),...Object.values(images),...Object.values(images),...Object.values(images),...Object.values(images),...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images)];
+const repeatedImages = [...Object.values(images),...Object.values(images),...Object.values(images),...Object.values(images),...Object.values(images),...Object.values(images),...Object.values(images),...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images), ...Object.values(images)];
 
 const Carrossel = (): JSX.Element => {
     const carousel = useRef<HTMLDivElement>(null);
