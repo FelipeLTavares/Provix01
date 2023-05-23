@@ -21,7 +21,7 @@ const Footer = () => {
             Empresa
           </Link>
           <Link to="/empresa" className="footerlink">
-            Equipe
+            Quem somos
           </Link>
           <Link to="/contato" className="footerlink">
             Contato
