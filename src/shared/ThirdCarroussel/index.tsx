@@ -11,9 +11,7 @@ const NewCarousel2 = () => {
   const [testee, setTestee] = useState(0);
 
   const lista2 = [
-    fotoArea1,
     fotoArea2,
-    fotoArea3,
     fotoArea4,
     fotoArea5,
   ];

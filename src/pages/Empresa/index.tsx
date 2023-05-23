@@ -27,7 +27,7 @@ const Empresa = () => {
   },
   {
     imagem: ImgValores,
-    texto: "CONFIABILIDADE: Nossa operação é confiável, nossa entrega é confiável, nós honramos os contratos e acordos comerciais. FLEXIBILIDADE: Nós temos habilidade para ajustar volumes e entrega, nós temos frequência de novos projetos e produtos, nós temos ampla variedade produtos. RAPIDEZ: Nossa entrega é rápida. QUALIDADE: Processo isento de erro, produtos sob especificação técnica. CUSTO: Nós temos o preço justo a realidade de mercado, nós buscamos sempre o melhor resultado",
+    texto: "Confiabilidade, Flexibilidade, Rapidez, Qualidade e Custo",
   }]
   return (
     <div className="containerEmpresa">
