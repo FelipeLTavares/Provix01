@@ -16,7 +16,7 @@ const Equipe = () => {
       <Header2 />      
       <div className="NossosParceiros3">
           <span id="textoEquipe1">Quem<br/>Somos</span>
-          <span id="textoEquipe2">Conheça um pouco cobre nós!</span>
+          <span id="textoEquipe2">Conheça um pouco sobre nós!</span>
       </div>
       <img src={fundoAzul} alt="" id="fundoAzul" />
       <div className="ConhecaOTime2">
