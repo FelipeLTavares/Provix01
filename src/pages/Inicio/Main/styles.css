@@ -5,6 +5,11 @@
   justify-content: center;
 }
 
+.Excelencia{
+  width: 25rem;
+  align-self: center;
+}
+
 /* LEFT */
 #MCLeft {
   width: 25%;
@@ -16,8 +21,13 @@
   object-fit: cover;
 }
 
+#title{
+  display: flex;
+  flex-direction: column;
+}
+
 #MCSubtitle {
-  width: 22rem;
+  width: 100%;
   height: 2rem;
   background: #04942c;
   color: white;
@@ -25,6 +35,7 @@
   letter-spacing: 0.22rem;
 
   display: flex;
+  align-self: center;
   align-items: center;
 
   padding: 0.2rem 0.5rem;
@@ -146,6 +157,9 @@
     flex-direction: column-reverse;
     align-items: center;
   }
+  .Excelencia{
+    width: 20rem;
+  }
 
   /* LEFT */
   #MCLeft {
@@ -157,9 +171,9 @@
   }
 
   #MCSubtitle {
-    width: 20rem;
-    height: 2rem;
-    font-size: 1.3rem;
+    width: 15rem;
+    height: 1.8rem;
+    font-size: .9rem;
     letter-spacing: 0.22rem;
     margin-top: 0.5rem;
   }

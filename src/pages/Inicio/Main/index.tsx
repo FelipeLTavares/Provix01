@@ -1,6 +1,6 @@
 import "./styles.css";
 
-import excelenciaimg from "../../../assets/SVG/Ativo 33.svg";
+import excelenciaimg from "../../../assets/Ativo 1.png";
 import img1 from "../../../assets/foto5.png";
 import img2 from "../../../assets/foto2.jpg";
 import img3 from "../../../assets/foto3.jpg";
@@ -10,10 +10,10 @@ const Main = () => {
     <div id="MCContainer">
       <div id="MCLeft">
         <div id="title">
-          <img src={excelenciaimg} alt="Excelencia" />
+          <img className="Excelencia" src={excelenciaimg} alt="Excelencia" />
+        <div id="MCSubtitle">É O QUE ENTREGAMOS</div>
         </div>
 
-        <div id="MCSubtitle">É O QUE ENTREGAMOS</div>
 
         <div id="MCLeftContent">
           <p style={{marginBottom: '-1%', fontSize: '1.2rem'}}>
