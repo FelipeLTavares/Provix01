@@ -194,25 +194,26 @@
 @media only screen and (max-width: 600px) {
   #SBDados {
     margin-left: 15rem;
+    margin-bottom: 8rem;
   }
   #SBMenino {
     width: 20rem;
   }
 
   #SBMenino > img {
-    height: 50rem;
-    margin-left: -30rem;
-    margin-top: 0;
+    height: 30rem;
+    margin-left: -20rem;
+    margin-top: 10rem;
   }
 
   #SCMapaCeara {
     width: 27rem;
-    padding-top: 7rem;
+    padding-top: 11rem;
   }
 
   #SCMapaCeara > img {
-    width: 30rem;
-    margin-left: -1rem;
+    width: 15rem;
+    margin-left: 12rem;
   }
 
   #SBDados {
