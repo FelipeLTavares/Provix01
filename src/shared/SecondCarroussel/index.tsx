@@ -9,6 +9,10 @@ import fotoAcao7 from "../../assets/FotosAcoes/foto7.png";
 import fotoAcao8 from "../../assets/FotosAcoes/foto8.png";
 import fotoAcao9 from "../../assets/FotosAcoes/foto9.png";
 import fotoAcao10 from "../../assets/FotosAcoes/foto10.png";
+import fotoAcao11 from "../../assets/FotosAcoes/foto11.png";
+import fotoAcao12 from "../../assets/FotosAcoes/foto12.png";
+import fotoAcao13 from "../../assets/FotosAcoes/foto13.png";
+import fotoAcao14 from "../../assets/FotosAcoes/foto14.png";
 
 import { useState } from "react";
 
@@ -26,6 +30,10 @@ const NewCarousel = () => {
     fotoAcao8,
     fotoAcao9,
     fotoAcao10,
+    fotoAcao11,
+    fotoAcao12,
+    fotoAcao13,
+    fotoAcao14,
   ];
 
   const avancar = () => {

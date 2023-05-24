@@ -2,8 +2,7 @@ import "./styles.css";
 
 import excelenciaimg from "../../../assets/Ativo 1.png";
 import img1 from "../../../assets/foto5.png";
-import img2 from "../../../assets/foto2.jpg";
-import img3 from "../../../assets/foto3.jpg";
+import img2 from "../../../assets/15Comprimida2405.jpg";
 
 const Main = () => {
   return (
@@ -36,13 +35,11 @@ const Main = () => {
 
       <div id="MCRight">
         <div id="MCVideo">
-        <img src={img1} alt="Img1" className="MCPhotoGrande" />
+          <img src={img1} alt="Img1" className="MCPhotoGrande" />
         </div>
-
-        {/* <div id="MCPhotos">
-          <img src={img2} alt="Img1" className="MCPhoto" />
-          <img src={img3} alt="Img1" className="MCPhoto" />
-        </div> */}
+        <div id="MCVideo">
+          <img src={img2} alt="Img1" className="MCPhotoGrande" />
+        </div>
       </div>
     </div>
   );
