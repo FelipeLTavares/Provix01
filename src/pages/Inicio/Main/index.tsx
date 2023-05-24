@@ -39,10 +39,10 @@ const Main = () => {
         <img src={img1} alt="Img1" className="MCPhotoGrande" />
         </div>
 
-        <div id="MCPhotos">
+        {/* <div id="MCPhotos">
           <img src={img2} alt="Img1" className="MCPhoto" />
           <img src={img3} alt="Img1" className="MCPhoto" />
-        </div>
+        </div> */}
       </div>
     </div>
   );
