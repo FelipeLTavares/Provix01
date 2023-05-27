@@ -19,11 +19,11 @@ const Empresa = () => {
 
   const imagensTextos = [{
     imagem: ImgMissao,
-    texto: "Fornecer produtos e contribuir com projetos de qualidade, necessários para o bom funcionamento dos Municípios Cearenses, contribuindo para o bem estar social",
+    texto: "Fornecer produtos e projetos de qualidade, necessários para o bom funcionamento dos Municípios Cearenses, sempre contribuindo para o bem estar social",
   },
   {
     imagem: ImgVisao,
-    texto: "Ser referência de eficiência e excelência no relacionamento com o serviço púbico\nSer a mais lembrada pela eficiência e excelência no relacionamento com o serviço público (Top of Mind)",
+    texto: "Ser referência de eficiência e excelência no relacionamento com o serviço público. (Top of mind)",
   },
   {
     imagem: ImgValores,
