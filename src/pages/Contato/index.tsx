@@ -3,7 +3,7 @@ import "./styles.css";
 import Header2 from "../../shared/Header2";
 import Footer from "../../shared/Footer";
 import fundoAzul from "../../assets/SVG/Ativo 14.svg";
-import ImgDeposito from "../../assets/foto4.jpg";
+import ImgDeposito from "../../assets/imagemGalpao.jpg";
 import Unidades from "../../assets/Ativo 41.png";
 import Maps from "../../shared/Maps";
 
